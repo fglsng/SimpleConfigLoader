@@ -1,0 +1,14 @@
+{
+  "DbConnectionString" : "FOO",
+  "MailServer": "BAR",
+  "MailServerPort": 1234,
+  "NoReplyPassword": "Something",
+  "ListOfStrings": [
+    "a",
+    "b",
+    "c"
+  ],
+  "ObjectOfStrings": {
+    "Foo" : "Bar"
+  }
+}

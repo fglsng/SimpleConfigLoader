@@ -1,0 +1,12 @@
+{
+  "FooStr" : "Bar",
+  "FooInt": 1234,
+  "FooList": [
+    "a",
+    "b",
+    "c"
+  ],
+  "FooObj": {
+    "Foo" : "Bar"
+  }
+}

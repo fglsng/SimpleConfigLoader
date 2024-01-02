@@ -1,0 +1,6 @@
+{
+  "DbConnectionString" : "FOO",
+  "MailServer": "BAR",
+  "MailServerPort": 587,
+  "NoReplyPassword": "Something"
+}
