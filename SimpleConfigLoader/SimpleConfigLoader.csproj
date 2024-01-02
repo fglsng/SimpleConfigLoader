@@ -8,11 +8,11 @@
     <Authors>fglsng</Authors>
     <Copyright>Søren Kamp Fuglsang</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <AssemblyVersion>8.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.1</AssemblyVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <FileVersion>8.0.0</FileVersion>
+    <FileVersion>8.0.1</FileVersion>
     <PackageTags>configuration,setup,config,conf,loader,confloader,configloader</PackageTags>
-    <Version>8.0.0</Version>
+    <Version>8.0.1</Version>
     <Description>To effeciently and in a very simple way load a file used to store configuration information for a piece of software.</Description>
     <Title>Simple Config Loader</Title>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
