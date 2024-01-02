@@ -5,8 +5,6 @@ namespace SimpleConfigLoader
 {
     public class Load
     {
-        public static object? ActiveConfiguration { get; set; }
-
         public static GenericConfiguration? FromRoot(string file)
         {
             var path = Environment.CurrentDirectory;
@@ -35,6 +33,8 @@ namespace SimpleConfigLoader
         {
             var serialized = string.Empty;
 
+            ActiveConfiguration.Reset();
+
             try
             {
                 using (StreamReader r = new StreamReader(path))
@@ -44,7 +44,6 @@ namespace SimpleConfigLoader
             }
             catch (Exception e)
             {
-                ActiveConfiguration = null;
                 return default(T);
             }
 
@@ -72,7 +71,15 @@ namespace SimpleConfigLoader
 
             }
 
-            ActiveConfiguration = config;
+            if (typeof(T) == typeof(GenericConfiguration))
+            {
+                ActiveConfiguration.Generic = config as GenericConfiguration;
+            }
+            else
+            {
+                ActiveConfiguration.Specific = config;
+            }
+
             return config;
         }
 

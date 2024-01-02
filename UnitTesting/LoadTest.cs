@@ -32,6 +32,8 @@ namespace UnitTesting
 
             Assert.IsTrue(config.ContainsKey("ObjectOfStrings"));
             Assert.AreEqual("Bar", config.GetValue<TestClass>("ObjectOfStrings").Foo);
+
+            Assert.IsNotNull(SimpleConfigLoader.ActiveConfiguration.Generic);
         }
         
         [TestMethod]
@@ -61,6 +63,8 @@ namespace UnitTesting
 
             Assert.IsTrue(config.ContainsKey("ObjectOfStrings"));
             Assert.AreEqual("Bar", config.GetValue<TestClass>("ObjectOfStrings").Foo);
+
+            Assert.IsNotNull(SimpleConfigLoader.ActiveConfiguration.Generic);
         }
 
         [TestMethod]
@@ -81,6 +85,8 @@ namespace UnitTesting
             Assert.AreEqual(1, config.FooList.Where(x => x == "c").Count());
 
             Assert.AreEqual("Bar", config.FooObj.Foo);
+
+            Assert.IsNotNull(SimpleConfigLoader.ActiveConfiguration.Specific);
         }
 
         [TestMethod]
@@ -99,6 +105,8 @@ namespace UnitTesting
             Assert.AreEqual(1, config.FooList.Where(x => x == "c").Count());
 
             Assert.AreEqual("Bar", config.FooObj.Foo);
+
+            Assert.IsNotNull(SimpleConfigLoader.ActiveConfiguration.Specific);
         }
 
 
