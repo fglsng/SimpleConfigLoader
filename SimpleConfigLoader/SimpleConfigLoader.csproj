@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Company>fglsng</Company>
     <Authors>fglsng</Authors>
     <Copyright>Søren Kamp Fuglsang</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <AssemblyVersion>7.0.1</AssemblyVersion>
+    <AssemblyVersion>8.0.0</AssemblyVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <FileVersion>7.0.1</FileVersion>
+    <FileVersion>8.0.0</FileVersion>
     <PackageTags>configuration,setup,config,conf,loader,confloader,configloader</PackageTags>
-    <Version>7.0.1</Version>
+    <Version>8.0.0</Version>
     <Description>To effeciently and in a very simple way load a file used to store configuration information for a piece of software.</Description>
     <Title>Simple Config Loader</Title>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
