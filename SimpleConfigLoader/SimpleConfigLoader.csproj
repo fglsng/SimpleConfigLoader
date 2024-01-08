@@ -13,7 +13,7 @@
     <FileVersion>8.0.0</FileVersion>
     <PackageTags>configuration,setup,config,conf,loader,confloader,configloader</PackageTags>
     <Version>8.0.0</Version>
-    <Description>To effeciently and in a very simple way load a file used to store configuration information for a piece of software.</Description>
+    <Description>To effeciently and in a very simple way load a file used to store configuration information.</Description>
     <Title>Simple Config Loader</Title>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
