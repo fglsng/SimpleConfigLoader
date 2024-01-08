@@ -1,6 +1,17 @@
 # SimpleConfigLoader
 ### Purpose
-To effeciently and in a ___very simple___ way load a file used to store configuration information for a piece of software.
+To effeciently and in a ___very simple___ way load a file used to store configuration information.
+
+#### Availability
+Make sure [Nuget](https://learn.microsoft.com/da-dk/nuget/install-nuget-client-tools) is installed, then install [SimpleConfigLoader](https://github.com/fglsng/simpleconfigloader) from the Package Manager Console:
+```
+PM> Install-Package SimpleConfigLoader
+```
+
+Or by the .NET CLI:
+```
+dotnet add package SimpleConfigLoader
+```
 
 ### Current Limits
 * Only local files.
@@ -8,7 +19,7 @@ To effeciently and in a ___very simple___ way load a file used to store configur
 
   
   
-# Usage  
+# Getting started  
 ## Generic Configuration
 The library can read using the predifined ***"SimpleConfigLoader.GenericConfiguration"*** class which is in inheriting from Dictionary<string,object> and has the method ***"GetValue\<T>"*** to retrieve values with a given key.
 ``` C#
