@@ -21,7 +21,7 @@ dotnet add package SimpleConfigLoader
   
 # Getting started  
 ## Generic Configuration
-The library can read using the predifined ***"SimpleConfigLoader.GenericConfiguration"*** class which is in inheriting from Dictionary<string,object> and has the method ***"GetValue\<T>"*** to retrieve values with a given key.
+The library can read using the predefined ***"SimpleConfigLoader.GenericConfiguration"*** class which is inheriting from Dictionary<string,object> and has the method ***"GetValue\<T>"*** to retrieve values with a given key.
 ``` C#
 var conf = new SimpleConfigLoader.GenericConfiguration();
 
