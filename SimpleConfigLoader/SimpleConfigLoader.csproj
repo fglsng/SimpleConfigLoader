@@ -8,15 +8,16 @@
     <Authors>fglsng</Authors>
     <Copyright>Søren Kamp Fuglsang</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <AssemblyVersion>8.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.2</AssemblyVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <FileVersion>8.0.0</FileVersion>
+    <FileVersion>8.0.2</FileVersion>
     <PackageTags>configuration,setup,config,conf,loader,confloader,configloader</PackageTags>
-    <Version>8.0.0</Version>
+    <Version>8.0.2</Version>
     <Description>To effeciently and in a very simple way load a file used to store configuration information.</Description>
     <Title>Simple Config Loader</Title>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/fglsng/simpleconfigloader</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
